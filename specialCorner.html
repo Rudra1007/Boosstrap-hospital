@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Wankhede Clinic</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAAYAAAD19fZjY2QICA1DQ0RpaWn6+voAAANZWVtgYGHr6+u/v8AvLzG0tLWrq6soKCoQEBPV1dYiIiTf39/t7e2CgoN8fH2Hh4fl5eW5ublPT1A7Ozw0NDWqqqrIyMiUlJWcnJ3ExMRycnMXFxnbINFAAAACbUlEQVR4nO3dbVPaQBSGYbJQSYJKSAREsILa//8XG8XOtHXD7kOSMxLv66vM8dy8CM4AOxoBAAAAAAAAAAAAADBQaT4RzQITZ+rAPO230MkCE/WBfRdmiSSiUBuYUUhhsPBNfF7k41Aa2G/haHS9XS/qXxO8KbP6QuX99jo88GZzG1P5NjC5nz/03He0ms8CK9U/zotw3R/j7TQ8cFfY1H1Ii0XzSs49ztX7Ujr/eWrg7dO4l46Tbkr/RvW1XZ01cH/nH5i5x323q0db+zZybnv2wINvYOaKDncWPXs2cufdgEeFb+BLZ/vq0s8LuR+tJn7+Ix18vunVmEIZhdYo1FFojUIdhdYo1FFojUIdhdYo1FFojUIdhdYo1FFojUIdhdYo1FFojUIdhdYo1FFojUIdhdYo1FFojULdJRSWrSZeQGHirtrwXGVfrjDRPwXzF9+4L1fYMQoppJBCCodYmA39+TBLXqctXMBrmuG/Lv0G/1tQeBqF1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWiNQh2F1ijUUWht+IXD/179yvNOdtfmqI2l7836pkeT/Gvv/fTAXfzpK/+rvAPLZYc7Kx4m/mNTnHs+b+DqtWngodvN4+zzxmNhsrpRv6tWDVfYceBh1UPDqW02p4/2eT/ZR9mp2pShgVdPVo/HZTGJOZ6pvshiHXHcU31vL6aRA39ZHPe0a/h0UsNOzuWBgbk6cNdvYKoek9b5uWucDkhhuFAWLFRRCAAAAAAAAAAAAAAAAAAAAAAAgG/uN9NyMxLY9+/0AAAAAElFTkSuQmCC">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -17,11 +21,11 @@
             background-image: url(https://img.freepik.com/free-vector/clean-medical-patterned-background-vector_53876-161509.jpg?size=626&ext=jpg&ga=GA1.1.898708403.1713253074&semt=ais_hybrid);
 
         }
-        .container {
+        .container-Two {
   width: 330px;
   height: 304px;
-  margin-left: 60%;
-  margin-bottom: -21%;
+  margin-left: 20%;
+  margin-top: -21.85%;
 }
 
 
@@ -44,6 +48,7 @@
   border: 1px solid #232323;
   transition: all .5s ease-in-out;
   overflow: hidden;
+  background-image: url(data:image/jpeg;base64,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);
 }
 
 .card-hidden {
@@ -88,7 +93,12 @@
   font-weight: 700;
   font-size: 1.5rem;
   transition: transform .25s ease-out;
+  text-align: center;
 }
+
+
+
+
 
 .title-in {
   font-weight: 700;
@@ -110,6 +120,97 @@
 .button:hover {
   background-color: #53aed4;
 }
+
+.med{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IG5G4T7uNoezBW4L91PgCcrwvPIsytyCew&s) ;
+}
+
+
+.card-title {
+  color: #262626;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.small-desc {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.small-desc {
+  font-size: 1em;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(135deg, #6293c8, #384c6c);
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 320px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, #364a60, #384c6c);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.card:hover:before {
+  transform: scale(28);
+}
+
+.card:hover .small-desc {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card:hover .card-title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
 
 
 
@@ -140,11 +241,13 @@
 
     <!-- cards -->
     <div class="container">
-        <div class="card">
-            <p class="title">Card title</p>
+        <div class="card med">
+            <p class="title">Side To Side Medical</p>
             <div class="card-hidden">
-                <p class="title-in">Card title</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia.</p>
+                <p class="title-in">Medical Store</p>
+                <p>We are providing you our own Medical store..
+                  A drug Store/Pharmacy/Community Pharmacy/chemist's is a retail shop which provides prescription drugs, among other products. At the drug store, a pharmacist oversees the fulfillment of medical prescriptions and is available to give advice on their offerings
+                </p>
                 
             </div>
   
@@ -154,10 +257,12 @@
 
     <div class="container-Two">
         <div class="card">
-            <p class="title">Card title</p>
+            <p class="title">Special Ayurvedic Treatment</p>
             <div class="card-hidden">
-                <p class="title-in">Card title</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia.</p>
+                <p class="title-in">Special Ayurvedic </p>
+                <p>We are providing you a very special Ayurvedic Treatment..
+                  Ayurveda or Ayurvedic medicine is a system of traditional medicine native to India, which uses a range of treatments, including panchakarma ('5 actions'), yoga, massage, acupuncture and herbal medicine, to encourage health and wellbeing.
+                </p>
                 
             </div>
   
@@ -165,5 +270,7 @@
         <div class="card-border"></div>
     </div>
     
+
+ 
 </body>
 </html>
